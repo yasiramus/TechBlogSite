@@ -1,0 +1,134 @@
+/* home.jsx styling */
+#homebg{  
+    position: relative;
+    left: 210px;
+    /* left: 226px; */
+    /* background: linear-gradient(
+        rgba(255, 0, 0, 0.45), 
+        rgba(163, 157, 157, 0.45)),url('../Image/code.jpg'); */
+}
+#home{
+    background-image: url('../Image/code.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30em;
+    width: 88vw;
+    z-index: -1;
+}
+.bg{
+    text-align: center;
+    color:#fff;
+    padding: 50px 0 0;
+}
+.h3{
+    width: 32rem;
+    margin: 30px auto;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.bg p{
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 0 0 40px;
+}
+button{
+    color: #fff;
+    background-color: #1e24da;
+    padding: 15px 30px;
+    border: none;
+    filter: drop-shadow(5px 5px 10px rgb(51, 42, 75));
+    transition: all 0.5s 0s ease;
+    box-shadow: 0px 10px 14px -7px #1b21c49d;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	text-shadow:0px 1px 0px #1b20c4;
+    font-size: 20px;
+    font-weight: 500;
+}
+button:hover{
+    background-color: #151999;
+}
+/* #ImgContainer{
+    margin-left: 8rem;
+} */
+#ImgContainer h3{
+    text-align: center;
+    padding: 30px 0 20px;
+    width: 34rem;
+    margin: 0 auto;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.imagesCard{
+    display: grid;
+    width: 60rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5rem;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+figure .image{
+    background-color: rgb(241, 243, 244);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    height: 14em;
+    padding: 30px;
+    border-radius: 50px;
+}
+figcaption{
+    padding: 30px 0 0;
+    text-align: center;
+}
+figcaption h4{
+    font-size: 1.2rem;
+    margin: 0 0 10px;
+    color: #000;
+}
+
+.containerTwo{
+    background-image:linear-gradient(
+        rgba(4, 0, 255, 0.205), 
+        rgba(14, 11, 11, 0.247)), url('../Image/tech.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 32em;
+    width: 88vw;
+    z-index: -1;
+}
+.quoteImg{
+    background-color: #fff;
+    padding: 50px;
+    margin :0 auto;
+    text-align: center;
+    width: 40em;
+    position: relative;
+    top: 14rem;
+    /* left:37px; */
+}
+.h6{
+    background: #1e24da;
+    border-radius: 5rem;
+    width: 5rem;
+    height: 5rem;
+    margin: auto;
+    
+}
+.h6 h6{
+    font-size: 2rem;
+    color: #fff;
+    padding-top: 27px;
+
+}
+.quoteImg p{
+    margin: 20px 0;
+    font-weight: 500;
+    color: #000;
+    letter-spacing: .5px;
+    word-spacing: 5px;
+}
+.writer{
+    color: rgb(53, 52, 52);
+}

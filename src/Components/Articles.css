@@ -1,0 +1,73 @@
+.ArticlesSection{
+    width: 80vw;
+    margin: 20px;
+}
+.subCard{
+    box-shadow: 10px 10px 93px 0px rgba(0,0,0,0.75);
+    padding:20px;
+}
+.subCard .cards{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 20px;
+}
+.atag a{
+    text-decoration: none;
+    text-transform: lowercase;
+    color: #fff;
+    cursor: pointer;
+}
+.atag{
+    margin: 7px 0;
+    background-color: #1e24da;
+    width: 15rem;
+    padding: 10px;
+    border-radius: 10px;
+}
+.atag:hover{
+    background-color: #151999;
+    box-shadow: 0 4px 5px rgba(0,0,0,0.2);
+}
+.author{
+    color: #000;
+    font-weight: 600;
+}
+.author > span{
+    margin-right: 5px;
+}
+.authspan{
+    margin-left: 5px;
+}
+#cardImg img{
+    width: 100%;
+    height: 100%;
+}
+.text h1{
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.text h4{
+    color: #c3bdbd;
+    text-transform: capitalize;
+    margin: 10px 0;
+
+}
+/* .a{
+    color: #151999;
+} */
+.description{
+    padding: 10px;
+    text-align: left;
+    word-spacing: 3px;
+    line-height: 1.1;
+    font-size: 1rem;
+    color: #000;
+}
+
+/* subCard2 styling  */
+#subcard2{
+    margin: 20px 0;
+}
+.subCard2 a{
+    border-left: 2px #070830 solid;
+}
